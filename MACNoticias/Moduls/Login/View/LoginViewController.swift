@@ -30,7 +30,7 @@ class LoginViewController: UIViewController {
                         self.navigationController?.pushViewController(MainViewController(email: result.user.email!, provider: .basic), animated: true)
                         
                     } else {
-                        let alertController = UIAlertController(title: "Error", message: "Se ha producido un error al registrar el usuario.", preferredStyle: .alert)
+                        let alertController = UIAlertController(title: "Error", message: "Se ha producido un error al iniciar sesion, porfavor intentalo mas tarde.", preferredStyle: .alert)
                         alertController.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
                         NSLog("The \"OK\" alert occured.")
                         }))
