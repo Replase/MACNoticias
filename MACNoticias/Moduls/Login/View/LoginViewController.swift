@@ -27,7 +27,7 @@ class LoginViewController: UIViewController {
                 Auth.auth().signIn(withEmail: email, password: password){
                     (result, error) in
                     if let result = result, error == nil {
-                        self.navigationController?.pushViewController(MainViewController(email: result.user.email!, provider: .basic), animated: true)
+                        self.navigationController?.pushViewController(TabBarViewController(), animated: true)
                         
                     } else {
                         let alertController = UIAlertController(title: "Error", message: "Se ha producido un error al iniciar sesion, porfavor intentalo mas tarde.", preferredStyle: .alert)
@@ -35,6 +35,7 @@ class LoginViewController: UIViewController {
                         NSLog("The \"OK\" alert occured.")
                         }))
                         self.present(alertController, animated: true, completion: nil)
+                        return
                     }
                 }
             

@@ -18,6 +18,10 @@
 		DD09718C28874D18002485CE /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = DD09718928874D18002485CE /* unnamed.png */; };
 		DD0971952887735A002485CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0971942887735A002485CE /* LoginViewController.swift */; };
 		DD0971972887736F002485CE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0971962887736F002485CE /* RegisterViewController.swift */; };
+		DD22E5B7288F57DC00771F3B /* TypeErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22E5B6288F57DC00771F3B /* TypeErrorModel.swift */; };
+		DD22E5B9288F582F00771F3B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22E5B8288F582F00771F3B /* UserModel.swift */; };
+		DD22E5BB28904DBF00771F3B /* unnamed 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD22E5BA28904DBF00771F3B /* unnamed 2.png */; };
+		DD22E5BD2890A47400771F3B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22E5BC2890A47400771F3B /* TabBarViewController.swift */; };
 		DD77F20C2888483C0000ECE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD77F20B2888483C0000ECE6 /* Main.storyboard */; };
 		DD77F20E28885E5B0000ECE6 /* logo-built_knockout.png in Resources */ = {isa = PBXBuildFile; fileRef = DD77F20D28885E5B0000ECE6 /* logo-built_knockout.png */; };
 		DD77F21028885FE20000ECE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD77F20F28885FE20000ECE6 /* GoogleService-Info.plist */; };
@@ -68,6 +72,10 @@
 		DD09718928874D18002485CE /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
 		DD0971942887735A002485CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DD0971962887736F002485CE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DD22E5B6288F57DC00771F3B /* TypeErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeErrorModel.swift; sourceTree = "<group>"; };
+		DD22E5B8288F582F00771F3B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DD22E5BA28904DBF00771F3B /* unnamed 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unnamed 2.png"; sourceTree = "<group>"; };
+		DD22E5BC2890A47400771F3B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		DD77F20B2888483C0000ECE6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DD77F20D28885E5B0000ECE6 /* logo-built_knockout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-built_knockout.png"; sourceTree = "<group>"; };
 		DD77F20F28885FE20000ECE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -135,6 +143,7 @@
 		DD09718628874D09002485CE /* Img */ = {
 			isa = PBXGroup;
 			children = (
+				DD22E5BA28904DBF00771F3B /* unnamed 2.png */,
 				DD77F20D28885E5B0000ECE6 /* logo-built_knockout.png */,
 				DD09718728874D18002485CE /* logounam.png */,
 				DD09718828874D18002485CE /* macLogo.png */,
@@ -182,6 +191,8 @@
 		DD09719328877319002485CE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DD22E5B6288F57DC00771F3B /* TypeErrorModel.swift */,
+				DD22E5B8288F582F00771F3B /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -208,6 +219,7 @@
 			children = (
 				DD77F24C288882D20000ECE6 /* MainViewController.swift */,
 				DD77F24E288885340000ECE6 /* HomeViewController.swift */,
+				DD22E5BC2890A47400771F3B /* TabBarViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -353,6 +365,7 @@
 				DD09717A28872734002485CE /* Asap-Bold.ttf in Resources */,
 				DDCBFED3287E1849003F2552 /* Assets.xcassets in Resources */,
 				DD09717B28872734002485CE /* Asap-BoldItalic.ttf in Resources */,
+				DD22E5BB28904DBF00771F3B /* unnamed 2.png in Resources */,
 				DD09718128874BC5002485CE /* Quicksand-Bold.ttf in Resources */,
 				DD77F21028885FE20000ECE6 /* GoogleService-Info.plist in Resources */,
 			);
@@ -365,8 +378,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD22E5B7288F57DC00771F3B /* TypeErrorModel.swift in Sources */,
 				DD0971952887735A002485CE /* LoginViewController.swift in Sources */,
+				DD22E5B9288F582F00771F3B /* UserModel.swift in Sources */,
 				DD77F24D288882D20000ECE6 /* MainViewController.swift in Sources */,
+				DD22E5BD2890A47400771F3B /* TabBarViewController.swift in Sources */,
 				DDCBFECA287E1847003F2552 /* AppDelegate.swift in Sources */,
 				DDCBFECC287E1847003F2552 /* SceneDelegate.swift in Sources */,
 				DD0971972887736F002485CE /* RegisterViewController.swift in Sources */,
